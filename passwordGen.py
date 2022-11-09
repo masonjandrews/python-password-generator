@@ -10,4 +10,4 @@ length_for_pass = 10
 
 password = "".join(random.sample(Use_for, length_for_pass))
 
-print("Your randomly generated password is: ")
+print("Your randomly generated password is: ", password)
