@@ -4,6 +4,7 @@
 Supports generation of passwords of a desired length of up to 71 characters</br>
 </br>
 To run this script:</br>
+	-Clone or download this GitHub repository</br>
 	-Navigate to the installation folder of the script</br>
 	-Open the folder in your terminal (or command prompt)</br>
 	-Type "python passwordGen.py"</br>
