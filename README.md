@@ -1,7 +1,7 @@
 # python password generator
  A basic python script to quickly generate a moderately secure password for any purpose
 </br>
-Supports generation of passwords of a desired length of up to 71 characters</br>
+Supports generation of passwords of a desired length</br>
 </br>
 To run this script:</br>
 	-Clone or download this GitHub repository</br>

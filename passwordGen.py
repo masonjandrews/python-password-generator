@@ -1,16 +1,20 @@
+import secrets
+import string
 import random
 import csv
 
-lower_case = "abcdefghijklmnopqrstuvwxyz"
-upper_case = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-number = "0123456789"
-symbols = "@#$%&*/\?"
+letters = string.ascii_letters
+numbers = string.digits
+special_chars = string.punctuation
+characters = letters + numbers + special_chars
 
-Use_for = lower_case + upper_case + number + symbols
 pass_purpose = input("Save password as: ")
 length_for_pass = int(input("Desired password length: "))
 
-password = "".join(random.sample(Use_for, length_for_pass))
+password = ''
+
+for i in range(length_for_pass):
+	password += ''.join(secrets.choice(characters))
 
 print("Your randomly generated password is: ", password)
 
